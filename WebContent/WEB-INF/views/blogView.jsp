@@ -55,7 +55,7 @@
                 <h1>${blog.getBlogTitle() }</h1>
                 <p>${blog.getBlogDescription()}</p>
 
-                <p>Posted on <b>${blog.getDate()}</b> </p>
+                <p>Posted on <b>${blog.getBlogPostedOn()}</b> </p>
             </div>
             <div class="card-buttons">
                 <button type="button" id="edit" value="edit">EDIT</button> <span>|</span><button id="delete" value="delete">DELETE</button>
